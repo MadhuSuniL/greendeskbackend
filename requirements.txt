@@ -55,3 +55,4 @@ urllib3==2.1.0
 wasabi==1.1.2
 weasel==0.3.4
 wikipedia==1.4.0
+gunicorn
