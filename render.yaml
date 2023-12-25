@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: greendeskbackend
+    name: SuniL
     buildCommand: "./build.sh"
     env: python
-    startCommand: "gunicorn greendeskbackend.wsgi:application"
+    startCommand: "gunicorn SuniL.wsgi:application"
