@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: greendeskbackend
+    buildCommand: "./build.sh"
+    env: python
+    startCommand: "gunicorn greendeskbackend.wsgi:application"
